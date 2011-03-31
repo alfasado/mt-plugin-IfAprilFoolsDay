@@ -1,0 +1,12 @@
+id  : IfAprilFoolsDay
+key : ifaprilfoolsday
+name: "If April Fool's Day"
+version: 0.1
+author_name: Alfasado Inc.
+author_link: http://alfasado.net/
+l10n_class: IfAprilFoolsDay::L10N
+description: '<__trans phrase="Conditional Tag MTIfAprilFoolsDay or MTIfAprilFool.">'
+tags:
+    block:
+        IfAprilFoolsDay?: $ifaprilfoolsday::IfAprilFoolsDay::Tags::_hdlr_if_aprilfoolsday
+        IfAprilFool?: $ifaprilfoolsday::IfAprilFoolsDay::Tags::_hdlr_if_aprilfoolsday
